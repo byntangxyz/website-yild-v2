@@ -63,7 +63,8 @@
               berupa barang bergerak (uang) maupun tidak bergerak (tanah).
             </li>
             <li>
-              Sebagai mitra program pengembangan Usaha Kesejahteraan Sosial (UKS).
+              Sebagai mitra program pengembangan Usaha Kesejahteraan Sosial
+              (UKS).
             </li>
           </ul>
         </div>
@@ -81,17 +82,17 @@ export default {
       pengurus: [
         {
           foto: "https://via.placeholder.com/150?text=Foto+1",
-          nama: "Budi Santoso",
+          nama: "Mujiyo Budi Wibowo",
           jabatan: "Ketua Yayasan",
         },
         {
           foto: "https://via.placeholder.com/150?text=Foto+2",
-          nama: "Siti Aminah",
+          nama: "Agus Dwi Widiyanto",
           jabatan: "Bendahara",
         },
         {
           foto: "https://via.placeholder.com/150?text=Foto+3",
-          nama: "Rahmat Hidayat",
+          nama: "Jarinto",
           jabatan: "Sekretaris",
         },
       ],

@@ -168,25 +168,6 @@ function search() {
                     </li>
                   </ul>
                 </div>
-                <select
-                  @change="handleDropdownChange"
-                  class="text-base text-white font-semibold transition py-2 mx-8 lg:group-hover:text-primary bg-transparent appearance-none cursor-pointer lg:hidden"
-                >
-                  <option selected disabled>Tautan &#9868;</option>
-                  <option
-                    value="https://arsip.yayasanisyfalanadhuafa.org/"
-                    class="text-black"
-                  >
-                    Dokumentasi
-                  </option>
-                  <option
-                    value="https://yild-artikel.webflow.io/"
-                    class="text-black"
-                  >
-                    Laman Article
-                  </option>
-                  <option value="#link3" class="text-black">Link 3</option>
-                </select>
               </li>
               <li class="group">
                 <a

@@ -1,18 +1,20 @@
 <script setup>
 import blog from "./blog.vue";
+import { ref } from "vue";
+
+const isMenuLink = ref(false);
 </script>
 
 <template>
-  <main class="pt-36 min-h-screen" id="home">
+  <main class="pt-24 min-h-screen" id="home">
     <div class="container mx-auto p-4">
       <div class="text-center">
-        <h1 class="font-bold text-xl md:text-2xl lg:text-4xl mb-12">
+        <h1 class="font-bold text-xl md:text-2xl lg:text-4xl mb-6">
           Selamat Datang di Website Yayasan Isyfa Lana Dhuafa
         </h1>
       </div>
 
-      <!-- 2 Kolom -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-6">
         <!-- Kolom Slider Gambar -->
         <div>
           <div
@@ -42,6 +44,31 @@ import blog from "./blog.vue";
           </p>
         </div>
       </div>
+      <div
+        class="bg-slate-300 max-w-52 h-8 text-center pt-1 border-black border hover:bg-slate-200 mx-auto lg:hidden"
+      >
+        <a
+          class="text-center p-4 font-semibold text-base"
+          @click="isMenuLink = !isMenuLink"
+          >Tautan Cepat <i class="ph ph-caret-down font-semibold"></i
+        ></a>
+      </div>
+      <div ref="link" class="" :class="{ hidden: !isMenuLink }">
+        <ul class="">
+          <li
+            class="group block border-x border-black max-w-52 text-center mx-auto pt-1 mt-0 hover:bg-slate-100"
+          >
+            <a href="https://arsip.yayasanisyfalanadhufa.org/" class="text-base text-black group-hover:text-primary"
+              >Arsip Dokumentasi</a
+            >
+          </li>
+          <li class="group group block border border-black max-w-52 text-center mx-auto pt-1 mt-0">
+            <a href="https://yild-artikel.webflow.io/" class="text-base text-black group-hover:text-primary"
+              >Laman Artikel</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <blog />
   </main>
@@ -53,11 +80,7 @@ import blog from "./blog.vue";
 export default {
   data() {
     return {
-      images: [
-        "/santunan-1.jpeg",
-        "https://via.placeholder.com/400x300?text=Gambar+2",
-        "https://via.placeholder.com/400x300?text=Gambar+3",
-      ],
+      images: ["/santunan-1.jpeg", "/umkm-2.jpeg", "/qurban-2022.jpeg"],
       currentImageIndex: 0,
     };
   },

@@ -49,7 +49,7 @@
           class="bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105"
         >
           <img
-            src="https://via.placeholder.com/400x250?text=Pemberdayaan+UMKM"
+            src="/umkm.jpeg"
             alt="Pemberdayaan UMKM"
             class="w-full h-48 object-cover"
           />

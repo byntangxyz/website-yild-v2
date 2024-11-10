@@ -5,7 +5,7 @@
         <!-- Kontak -->
         <div>
           <h3 class="font-semibold text-lg mb-4 lg:text-xl">Kontak</h3>
-          <p class="text-sm text-gray-300 lg:text-lg">Email: <a href="mailto:isyfalanadhuafa@gmail.com">isyfalanadhuafa@gmail.com</a></p>
+          <p class="text-sm text-gray-300 lg:text-lg">Email: <a href="mailto:isyfalanadhuafa.01@gmail.com">isyfalanadhuafa.01@gmail.com</a></p>
           <p class="text-sm text-gray-300 lg:text-lg">
             Telepon: +62 812-2781-996, +62 896-0146-5301
           </p>

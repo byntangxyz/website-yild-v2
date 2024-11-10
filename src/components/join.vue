@@ -37,14 +37,12 @@
         <div class="bg-white bg-opacity-20 p-6 rounded-lg shadow-md">
           <h3 class="font-bold text-xl mb-4 lg:text-3xl">Rekening Bank</h3>
           <p class="text-sm text-gray-300 lg:text-lg">
-            Bank Syariah Indonesia (BSI): 1234567890 a.n Yayasan Isyfa Lana
-            Dhuafa
+            Bank Mandiri Syariah KCP Bantul. 7777444063 A.n YAYASAN ISYFA LANA
+            DHUAFA
           </p>
-          <p class="text-sm text-gray-300 mt-2 lg:text-lg">
-            Bank Mandiri: 0987654321 a.n Yayasan Isyfa Lana Dhuafa
-          </p>
+
           <button
-            class="mt-6 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition text-lg"
+            class="mt-6 bg-primary hover:bg-opacity-80 text-white py-2 px-4 rounded-lg transition text-lg"
             @click="handleJoin"
           >
             Donasi
